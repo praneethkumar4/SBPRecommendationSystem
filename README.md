@@ -9,7 +9,7 @@ The e-commerce business is quite popular today. Here, you do not need to take or
 
 ### Solution
 
-* github link: https://github.com/dhapola/sentiment-based-product-recommendation-system
+* github link: https://github.com/praneethkumar4/SBPRecommendationSystem
 
 * Live App URL running on Heroku: https://sbpr-dd.herokuapp.com/
 
