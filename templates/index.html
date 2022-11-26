@@ -13,7 +13,7 @@
     <style>
       .bg-navbars-custom {
         --bs-bg-opacity: 1;
-        background-color: #1e9c05;
+        background-color: #c95908;
         color: white;
       }
 
@@ -80,33 +80,6 @@
           <div class="row">
             {% if message%}
             <div class="alert alert-danger" role="alert">{{message}}</div>
-            {% endif %}
-          </div>
-        </div>
-      </form>
-
-      <form method="post" action="/predictsentiment">
-        <div class="row vstack gap-3">
-          <div class="row">
-            <label for="reviewText" class="form-label">Based on sentiment analysis model, this system would predict
-              whether your review is Positive or Negative. To check, pl enter your review below</label>
-            <textarea class="form-control" name="reviewText" rows="3" id="reviewText"></textarea>
-          </div>
-          <div class="row">
-            <div class="col align-self-end">
-              <input type="submit" class="btn bg-navbars-custom float-end" value="Predict Sentiment" />
-            </div>
-          </div>
-          <div class="row">
-            {% if sentiment == 1%}
-            <div class="alert alert-success" role="alert">
-              Congratulations! Your review is predicted to be a "Positive" review.
-
-            </div>
-            {% elif sentiment == 0%}
-            <div class="alert alert-danger" role="alert">
-              Unfortunately, your review is predicted to be a "Negative" review.
-            </div>
             {% endif %}
           </div>
         </div>
