@@ -20,6 +20,7 @@ nltk.download('omw-1.4','nltk_data/')
 class SentimentRecommenderModel:
 
     ROOT_PATH = "pickle/"
+    #MODEL_NAME = "logistic-regression.pkl"
     MODEL_NAME = "xg-boost-model.pkl"
     VECTORIZER = "tfidf-vectorizer.pkl"
     RECOMMENDER = "user_final_rating.pkl"
